@@ -1,0 +1,32 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+nav{
+	background: #eee;
+}
+h4.right{
+	text-align: right;
+}
+.mar{
+	margin-top:20px ;
+}
+span{
+	margin-right: 5px;
+}
+.talk{
+	background: #eee;
+}
+.cli:hover,.cli-on{
+	background: #23527C;
+}
+.cli:hover>a,.cli-on a{
+	color: #FFF;
+	text-decoration: none;
+}
+.ml{
+	margin-left: 15px;
+}

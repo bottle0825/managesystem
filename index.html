@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>管理平台</title>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<nav class="nav navbar-default">
+			<div class="container">
+				<div class="nav navbar-header">
+					<a href="#" class="navbar-brand">
+						后台管理
+					</a>
+					<button class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="nav">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#" class="active"><span class="glyphicon glyphicon-home"></span>后台首页</a></li>
+						<li class=""><a href="user.html" class=""><span class="glyphicon glyphicon-user"></span>用户管理</a></li>
+						<li class=""><a href="content.html" class=""><span class="glyphicon glyphicon-list-alt"></span>内容管理</a></li>
+						<li class=""><a href="tip.html" class=""><span class="glyphicon glyphicon-tags"></span>标签管理</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="">
+							<a href="" class="dropdown-toggle" data-toggle="dropdown">admin <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href=""><span class="glyphicon glyphicon-screenshot"></span>前台首页</a></li>
+								<li><a href=""><span class="glyphicon glyphicon-user"></span>个人主页</a></li>
+								<li><a href=""><span class="glyphicon glyphicon-cog"></span>个人设置</a></li>
+								<li><a href=""><span class="glyphicon glyphicon-credit-card"></span>账户中心</a></li>
+								<li><a href=""><span class="glyphicon glyphicon-heart"></span>我的收藏</a></li>
+							</ul>
+						</li>
+						<li class=""><a href="#main" class=""><span class="glyphicon glyphicon-off"></span>退出</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container mar">
+			<div class=" alert alert-danger" data-dismiss="alert">
+				<b>当前网站存在安全漏洞，请立即修复!</b><button class="close">&times;</button><br />
+				<button class="btn btn-default">立即修复</button>
+				<button class="btn btn-danger">忽略提示</button>
+			</div>
+		</div>
+		<div class="container mar">
+			<div class="col-sm-6">
+				<div class="panel panel-default ">
+					<div class=" panel-heading">
+						<a href="#" class="panel-title" data-toggle="collapse" data-target="#p1">网站数据统计</a>
+					</div>
+					<div class="collapse in" id="p1">
+						<div class="panel-body">
+							<table class="table table-hover">
+								<thead>
+									<tr>
+										<th>统计项目</th>
+										<th>今日</th>
+										<th>昨日</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>注册会员</th>
+										<td>200</td>
+										<td>400</td>
+									</tr>
+									<tr>
+										<th>登录会员</th>
+										<td>4100</td>
+										<td>5112</td>
+									</tr>
+									<tr>
+										<th>今日发帖</th>
+										<td>1540</td>
+										<td>4511</td>
+									</tr>
+									<tr>
+										<th>转帖次数</th>
+										<td>150</td>
+										<td>110</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<a href="#" class="panel-title" data-toggle="collapse" data-target="#p2">网站热帖</a>
+					</div>
+					<ul class="list-group collapse in" id="p2">
+						<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-list-alt"></span>泛MOOC职业教育，效果和就业为主<i class="pull-right">2015/08/08</i></a></li>
+						<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-list-alt"></span>泛MOOC职业教育，效果和就业为主<i class="pull-right">2015/08/08</i></a></li>
+						<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-list-alt"></span>泛MOOC职业教育，效果和就业为主<i class="pull-right">2015/08/08</i></a></li>
+						<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-list-alt"></span>泛MOOC职业教育，效果和就业为主<i class="pull-right">2015/08/08</i></a></li>
+						<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-list-alt"></span>泛MOOC职业教育，效果和就业为主<i class="pull-right">2015/08/08</i></a></li>
+						<li class="list-group-item"><a href="#"><span class="glyphicon glyphicon-list-alt"></span>泛MOOC职业教育，效果和就业为主<i class="pull-right">2015/08/08</i></a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		<div class="container">
+			<div class="col-sm-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<a href="#" class="panel-title" data-toggle="collapse" data-target="#p3">今日访客统计</a>
+					</div>
+					<div class="collapse in" id="p3">
+						<div class="panel-body">
+							<img src="img/data.png" class="img-responsive"/>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-sm-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<a href="#" class="panel-title" data-toggle="collapse" data-target="#p4">服务器状态</a>
+					</div>
+					<div class="collapse in" id="p4">
+						<div class="panel-body">
+							<label for="nc">内存使用率：40%</label>
+							<div class="progress progress-striped active">
+								<div id="nc" class="progress-bar progress-bar-success" style="width: 40%;"></div>
+							</div>
+							<label for="nc">数据库使用率：20%</label>
+							<div class="progress progress-striped active">
+								<div id="nc" class="progress-bar progress-bar-info" style="width: 20%;"></div>
+							</div>
+							<label for="nc">磁盘使用率：60%</label>
+							<div class="progress progress-striped active">
+								<div id="nc" class="progress-bar progress-bar-warning" style="width: 60%;"></div>
+							</div>
+							<label for="nc">CPU使用率：80%</label>
+							<div class="progress progress-striped active">
+								<div id="nc" class="progress-bar progress-bar-danger" style="width: 80%;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="col-sm-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<div class="panel-title" data-toggle="collapse" data-target="#p5">团队留言板</div>
+					</div>
+					<div class="collapse in" id="p5">
+						<div class="panel-body">
+							<div class="col-sm-7">
+								<div class="alert alert clearfix talk">
+									<img src="img/a.png" class="img-responsive col-xs-2"/>
+									<div class="col-xs-10">
+										<h4>卓大哥</h4>
+										<p>技术大哥，今晚吧网站程序升级一下哈，现在的程序有漏洞，安全起见！</p>
+									</div>
+								</div>
+								<div class="alert alert clearfix talk">
+									<div class="col-xs-10 ">
+										<h4 class="pull-right col-xs-12 right">技术大哥</h4>
+										<p class="pull-right">收到，今晚凌晨两点准时升级！</p>
+									</div>
+									<img src="img/b.png" class="col-xs-2"/>
+								</div>
+								<div class="alert alert clearfix talk">
+									<div class="col-xs-10">
+										<h4 class="pull-right col-xs-12 right">技术大哥</h4>
+										<p class="pull-right">你先在站点发布一下通知哈！</p>
+									</div>
+									<img src="img/b.png" class="col-xs-2"/>
+								</div>
+								<div class="alert alert clearfix talk">
+									<img src="img/a.png" class="img-responsive col-xs-2"/>
+									<div class="col-xs-10">
+										<h4>卓大哥</h4>
+										<p>好嘞！</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-5">
+								<form action="#" method="post" class="clearfix">
+									<div class="form-group">
+										<label for="ly">输入留言内容</label>
+										<div class="con-sm-12">
+											<textarea id="ly" name="ly" rows="" cols="" placeholder="输入留言内容" class="form-control"></textarea>
+										</div>
+									</div>
+									<input class="btn btn-default col-sm-3" type="submit" value="留言"/>
+								</form>
+								<div class="panel panel-default mar">
+									<div class=" panel-heading">
+										<div class="panel-title">团队联系手册</div>
+									</div>
+									<div class="panel-body">
+										<ul class="list-group">
+											<li class="list-group-item"><a href="#">站长(李小龙): <span class="glyphicon glyphicon-phone"></span>13134848615</a></li>
+											<li class="list-group-item"><a href="#">技术(大牛哥): <span class="glyphicon glyphicon-phone"></span>13134848615</a></li>
+											<li class="list-group-item"><a href="#">推广(张二哥): <span class="glyphicon glyphicon-phone"></span>13134848615</a></li>
+											<li class="list-group-item"><a href="#">客服(王女士): <span class="glyphicon glyphicon-phone"></span>13134848615</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<p class="text-center">Copyright @ 2012-2015 ICP备XXXXXXXXXXXXXXX号-</p>
+			</footer>
+		</div>
+		
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
